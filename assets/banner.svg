@@ -100,7 +100,7 @@
   <rect x="2" y="2" width="896" height="256" rx="15" fill="none" stroke="url(#accentCyanPurple)" stroke-width="1.5" opacity="0.6" class="shimmer-rect" />
 
   <!-- Left Side: Title and Value Proposition -->
-  <g transform="translate(60, 48)">
+  <g transform="translate(400, 48)">
     <!-- Badge -->
     <g transform="translate(0, 0)">
       <rect width="210" height="26" rx="13" fill="#1e293b" stroke="#38bdf8" stroke-width="1" opacity="0.85" />
@@ -111,17 +111,17 @@
     </g>
 
     <!-- Main Title -->
-    <text x="0" y="58" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="30" font-weight="900" letter-spacing="-0.5">
+    <text x="00" y="58" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="30" font-weight="900" letter-spacing="-0.5">
       Awesome <tspan fill="url(#accentCyanPurple)">Mobile App Testing</tspan>
     </text>
 
     <!-- Subtitle -->
-    <text x="0" y="86" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500">
+    <text x="00" y="86" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500">
       Enterprise SaaS Clouds • Open-Source Frameworks • Device Farms
     </text>
 
     <!-- Tags Row -->
-    <g transform="translate(0, 114)">
+    <g transform="translate(00, 114)">
       <!-- Tag 1 -->
       <g>
         <rect width="110" height="24" rx="6" fill="#0f172a" stroke="#475569" stroke-width="1" />
