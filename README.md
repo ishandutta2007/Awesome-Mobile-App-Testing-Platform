@@ -14,41 +14,25 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
 ## SaaS/Hosted Platforms
-- **[Kobiton](https://kobiton.com/)**  
-  Mobile testing platform offering real-device cloud, private/on-prem options, manual and automated testing, and strong support for regulated or BYOD environments.
 
-- **[HeadSpin](https://www.headspin.io/)**  
-  Performance-focused mobile testing and monitoring platform using real devices and real-network conditions across global locations.
-
-- **[Perfecto (OpenText)](https://www.perfecto.io/)**  
-  Enterprise mobile and web testing cloud with private device options, advanced analytics, and compliance-oriented features.
-
-- **[BitBar](https://www.bitbar.com/)**  
-  Real-device testing cloud supporting Appium, Espresso, XCUITest, and other frameworks for automated and live testing.
-
-- **[LambdaTest Mobile / TestMu AI](https://www.lambdatest.com/)**  
-  Cost-effective real-device and emulator cloud for manual and automated mobile app testing with broad browser and device coverage.
-
-- **[BrowserStack App Live / App Automate](https://www.browserstack.com/)**  
-  Leading real-device cloud for live interactive testing and automated Appium/Espresso/XCUITest runs with extensive device inventory.
-
-- **[Sauce Labs Mobile](https://saucelabs.com/)**  
-  Unified testing platform covering mobile, web, and API with real devices, emulators, and strong enterprise analytics and compliance features.
-
-- **[TestGrid](https://www.testgrid.io/)**  
-  Mobile and web testing platform offering real devices, automation support, and structured test evidence for QA teams.
-
-- **[Applause](https://www.applause.com/)**  
-  Crowdsourced and managed testing platform providing real-world device coverage and human-in-the-loop quality feedback.
-
-- **[Testlio](https://testlio.com/)**  
-  Managed testing network combining expert testers with platform tooling for continuous mobile quality assurance.
+| Platform | Description | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Kobiton](https://kobiton.com/)** | Mobile testing platform offering real-device cloud, private/on-prem options, manual and automated testing, and strong support for regulated or BYOD environments. | Starts at **$83/month** (billed annually; includes monthly device minute allotment) | **15-day free trial** (no credit card required; access to real devices and manual/automated testing) |
+| **[HeadSpin](https://www.headspin.io/)** | Performance-focused mobile testing and monitoring platform using real devices and real-network conditions across global locations. | Starts at **~$83/month** (CloudTest Go tier for digital enterprises) | **Free trial available upon request / sign-up** (time-limited cloud device evaluation) |
+| **[Perfecto (OpenText)](https://www.perfecto.io/)** | Enterprise mobile and web testing cloud with private device options, advanced analytics, and compliance-oriented features. | Starts at **~$83/month** (Live Testing starter tier; ~$300/month for automated tiers) | **14-day free trial** (access to cloud-based real devices and analytics) |
+| **[BitBar (SmartBear)](https://www.bitbar.com/)** | Real-device testing cloud supporting Appium, Espresso, XCUITest, and other frameworks for automated and live testing. | Starts at **$39/parallel/month** (Live Testing, billed annually; Automated Testing from $177/parallel/month) | **14-day free trial** (no credit card required; limited concurrent test runs) |
+| **[LambdaTest Mobile / TestMu AI](https://www.lambdatest.com/)** | Cost-effective real-device and emulator cloud for manual and automated mobile app testing with broad browser and device coverage. | Starts at **$15/user/month** (Live Testing; Real Device Cloud from $25/month; App Automation from $249/parallel/month) | **Free-for-life tier**: 60 minutes/month live manual testing (10 mins/session, 1 parallel test); 15-day trial for enterprise automation |
+| **[BrowserStack App Live / App Automate](https://www.browserstack.com/)** | Leading real-device cloud for live interactive testing and automated Appium/Espresso/XCUITest runs with extensive device inventory. | Starts at **$29/user/month** (App Live, billed annually; App Automate from $199/parallel/month) | **Free trial**: 30 minutes of manual app testing (App Live) and 100 minutes of automated app testing (App Automate) |
+| **[Sauce Labs Mobile](https://saucelabs.com/)** | Unified testing platform covering mobile, web, and API with real devices, emulators, and strong enterprise analytics and compliance features. | Starts at **$39/month** (Live Testing; Real Device Cloud starts at $199/month) | **14-day free trial** (includes 100 automated & live testing minutes across the Real Device Cloud) |
+| **[TestGrid](https://www.testgrid.io/)** | Mobile and web testing platform offering real devices, automation support, and structured test evidence for QA teams. | Starts at **$199/seat/month** (CoTester Starter Package) | **Guided POC / free trial upon demo request** (solutions-engineer guided evaluation against custom test scenarios) |
+| **[Applause](https://www.applause.com/)** | Crowdsourced and managed testing platform providing real-world device coverage and human-in-the-loop quality feedback. | Custom managed engagement (pilot programs structured per scoped testing cycle) | **Guided platform demo & pilot program upon request** (no self-serve free plan; pilot testing available for evaluation) |
+| **[Testlio](https://testlio.com/)** | Managed testing network combining expert testers with platform tooling for continuous mobile quality assurance. | LeoCore platform subscription fee + annual consumption fund | **Guided platform consultation & pilot program on request** (no self-serve free plan; case-by-case evaluation pilots) |
 
 ## Open-Source GitHub Projects
 - **[Appium](https://github.com/appium/appium)**  
