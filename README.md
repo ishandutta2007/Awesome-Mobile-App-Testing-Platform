@@ -1,92 +1,145 @@
-# Awesome-Mobile-App-Testing-Platform
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Mobile App Testing Platform Banner" width="100%" />
+</p>
 
-## Top Mobile App Testing Platforms Ecosystem
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-*Focused on Real-Device Clouds, Manual & Automated Testing, Performance Monitoring & Cross-Platform Mobile QA*
-**Last updated: August 2026**
+# 📱 Awesome Mobile App Testing Platform
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Mobile App Testing**. These systems provide access to real devices and emulators/simulators, support manual exploration and automated UI/E2E tests, and help teams validate functional, performance, and compatibility quality across Android and iOS.
-
-**Examples** include Kobiton, HeadSpin, Perfecto, BitBar, LambdaTest Mobile, BrowserStack App Live, Sauce Labs Mobile, TestGrid, Applause, and Testlio (the category leaders).
-
-**Open-source emphasis**: Mobile testing has a mature open-source ecosystem. **Appium**, **Maestro**, **Detox**, **Espresso**, and **XCUITest** form the foundation of most automation stacks and can be combined with self-hosted device labs. This section is heavily expanded with these frameworks and supporting tools.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-| Platform | Description | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
-| :--- | :--- | :--- | :--- |
-| **[Kobiton](https://kobiton.com/)** | Mobile testing platform offering real-device cloud, private/on-prem options, manual and automated testing, and strong support for regulated or BYOD environments. | Starts at **$83/month** (billed annually; includes monthly device minute allotment) | **15-day free trial** (no credit card required; access to real devices and manual/automated testing) |
-| **[HeadSpin](https://www.headspin.io/)** | Performance-focused mobile testing and monitoring platform using real devices and real-network conditions across global locations. | Starts at **~$83/month** (CloudTest Go tier for digital enterprises) | **Free trial available upon request / sign-up** (time-limited cloud device evaluation) |
-| **[Perfecto (OpenText)](https://www.perfecto.io/)** | Enterprise mobile and web testing cloud with private device options, advanced analytics, and compliance-oriented features. | Starts at **~$83/month** (Live Testing starter tier; ~$300/month for automated tiers) | **14-day free trial** (access to cloud-based real devices and analytics) |
-| **[BitBar (SmartBear)](https://www.bitbar.com/)** | Real-device testing cloud supporting Appium, Espresso, XCUITest, and other frameworks for automated and live testing. | Starts at **$39/parallel/month** (Live Testing, billed annually; Automated Testing from $177/parallel/month) | **14-day free trial** (no credit card required; limited concurrent test runs) |
-| **[LambdaTest Mobile / TestMu AI](https://www.lambdatest.com/)** | Cost-effective real-device and emulator cloud for manual and automated mobile app testing with broad browser and device coverage. | Starts at **$15/user/month** (Live Testing; Real Device Cloud from $25/month; App Automation from $249/parallel/month) | **Free-for-life tier**: 60 minutes/month live manual testing (10 mins/session, 1 parallel test); 15-day trial for enterprise automation |
-| **[BrowserStack App Live / App Automate](https://www.browserstack.com/)** | Leading real-device cloud for live interactive testing and automated Appium/Espresso/XCUITest runs with extensive device inventory. | Starts at **$29/user/month** (App Live, billed annually; App Automate from $199/parallel/month) | **Free trial**: 30 minutes of manual app testing (App Live) and 100 minutes of automated app testing (App Automate) |
-| **[Sauce Labs Mobile](https://saucelabs.com/)** | Unified testing platform covering mobile, web, and API with real devices, emulators, and strong enterprise analytics and compliance features. | Starts at **$39/month** (Live Testing; Real Device Cloud starts at $199/month) | **14-day free trial** (includes 100 automated & live testing minutes across the Real Device Cloud) |
-| **[TestGrid](https://www.testgrid.io/)** | Mobile and web testing platform offering real devices, automation support, and structured test evidence for QA teams. | Starts at **$199/seat/month** (CoTester Starter Package) | **Guided POC / free trial upon demo request** (solutions-engineer guided evaluation against custom test scenarios) |
-| **[Applause](https://www.applause.com/)** | Crowdsourced and managed testing platform providing real-world device coverage and human-in-the-loop quality feedback. | Custom managed engagement (pilot programs structured per scoped testing cycle) | **Guided platform demo & pilot program upon request** (no self-serve free plan; pilot testing available for evaluation) |
-| **[Testlio](https://testlio.com/)** | Managed testing network combining expert testers with platform tooling for continuous mobile quality assurance. | LeoCore platform subscription fee + annual consumption fund | **Guided platform consultation & pilot program on request** (no self-serve free plan; case-by-case evaluation pilots) |
-
-## Open-Source GitHub Projects
-- **[Appium](https://github.com/appium/appium)**  
-  The standard open-source cross-platform mobile automation framework built on the WebDriver protocol. Supports native, hybrid, and mobile-web apps on Android and iOS.
-
-- **[Maestro](https://github.com/mobile-dev-inc/Maestro)**  
-  Modern open-source E2E testing framework using simple YAML flows. Fast to write and maintain, supporting Android, iOS, React Native, Flutter, and web with low flakiness.
-
-- **[Detox](https://github.com/wix/Detox)**  
-  Gray-box end-to-end testing framework for React Native apps. Synchronizes with the app’s JavaScript runtime to reduce flakiness and improve reliability on Android and iOS.
-
-- **[Espresso](https://developer.android.com/training/testing/espresso)**  
-  Google’s official open-source UI testing framework for Android native apps, tightly integrated with the Android ecosystem and AndroidX Test.
-
-- **[XCUITest](https://developer.apple.com/documentation/xctest)**  
-  Apple’s official UI testing framework for iOS, iPadOS, and related platforms, used for native UI automation inside Xcode.
-
-- **[WebdriverIO](https://github.com/webdriverio/webdriverio)**  
-  Popular open-source test framework that works with Appium for mobile and Selenium for web, with rich plugin and reporting ecosystem.
-
-- **[DeviceLab and self-hosted device lab tools](https://github.com/devicelab-dev)**  
-  Open-source tooling for running Maestro/Appium tests on local or private device infrastructure while keeping data on your network.
-
-- **[Maestro Runner and reporting extensions](https://github.com/)**  
-  Community and companion projects that enhance Maestro with richer reports (HTML, JUnit, Allure) and CI integrations.
-
-- **[Appium drivers and clients](https://github.com/appium)**  
-  Official and community language clients (Java, Python, JS, etc.) plus platform-specific drivers (Flutter, Windows, macOS, etc.).
-
-- **[Open device farm and STF-style projects](https://github.com/)**  
-  Self-hosted solutions for managing pools of real Android/iOS devices for manual and automated testing.
-
-### Additional Strong Open-Source Options
-- Combining Appium or Maestro with Selenium Grid / custom device clouds for parallel execution.
-- Allure, ReportPortal, or open HTML reporters for rich test artifacts and history.
-- Firebase Test Lab and similar free/low-cost device clouds as complementary execution targets.
-- CI templates (GitHub Actions, GitLab CI, Jenkins) for mobile test pipelines.
-- Accessibility and visual regression open tools integrated into mobile flows.
-
-**Frameworks for building custom systems**: Use **Appium** or **Maestro** as the core automation engine, run tests on local emulators/simulators and a self-hosted real-device lab (or low-cost public device clouds), and publish results with open reporting tools. For React Native, prefer **Detox** when gray-box synchronization is valuable. This stack delivers full control, zero per-minute device licensing, and complete data ownership — ideal for teams with engineering capacity — while commercial platforms still excel at massive real-device inventories, global network conditions, managed live testing, and enterprise support/SLAs.
-
-## How to Contribute
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Mobile testing involves real devices, OS versions, and sometimes personal or production-like data. Open-source frameworks provide excellent control but still require proper device security, secret management, and CI hygiene. Always test on representative hardware and respect platform terms of service (especially for App Store / Play Store related testing).
-- Flakiness remains a challenge in mobile E2E testing; invest in stable selectors, synchronization, and clear failure triage processes.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-App-Testing-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobile-App-Testing-Platform?style=flat-square&logo=github" alt="Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-App-Testing-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Mobile-App-Testing-Platform?style=flat-square&logo=github" alt="Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-App-Testing-Platform/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
-**Made for mobile QA engineers, developers, and platform teams shipping high-quality Android and iOS apps.**
-Let's make mobile testing more open, reliable, and under your control.
+
+## 🌟 Overview & Ecosystem Guide
+
+A curated directory of top **Mobile App Testing Platforms**, **Real-Device Clouds**, and **Open-Source Test Automation Frameworks** for Android and iOS engineering teams.
+
+Whether you are scaling **automated End-to-End (E2E) testing**, setting up a **self-hosted device farm**, executing **cross-device manual exploration**, auditing **mobile performance**, or benchmarking **AI-assisted test agents**, this guide tracks industry-standard tools, pricing models, and architectural best practices.
+
+*Last updated: August 2026*
+
+---
+
+## 📑 Table of Contents
+- [☁️ SaaS / Hosted Real-Device Platforms](#️-saas--hosted-real-device-platforms)
+  - [📊 Market Overview & Industry Dynamics](#-market-overview--industry-dynamics)
+  - [🏢 Enterprise & Commercial Testing Clouds](#-enterprise--commercial-testing-clouds)
+- [🛠️ Open-Source Frameworks & Device Lab Tools](#️-open-source-frameworks--device-lab-tools)
+- [🏗️ Recommended Architecture Stacks](#️-recommended-architecture-stacks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## ☁️ SaaS / Hosted Real-Device Platforms
+
+### 📊 Market Overview & Industry Dynamics
+> **Estimated Market Size & Sector Structure**: The global mobile application testing market is valued at approximately **$7.70 Billion in 2025** and projected to reach **$9.02 Billion in 2026** (growing at a compound annual growth rate of **15%–18% CAGR** towards $18B+ by 2030). The sector is **moderately to highly fragmented** rather than winner-take-all—spanning public/private real-device clouds, AI-driven autonomous testing engines, and global crowdtesting networks—because teams must combat extreme device and OS fragmentation across **24,000+ distinct Android and iOS hardware profiles**.
+
+### 🏢 Enterprise & Commercial Testing Clouds
+*Below is a breakdown of the leading commercial SaaS mobile testing platforms, sorted descending by company scale (valuation / annual revenue).*
+
+| Platform | Company Size (Valuation / Revenue) | Description | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Perfecto (OpenText)](https://www.perfecto.io/)** | **~$5.17B Revenue** (Parent OpenText, NASDAQ: OTEX; ~$9B+ Market Cap) | Enterprise mobile and web testing cloud with private/dedicated devices, rich analytics, biometric simulation, and strict compliance support. | Starts at **~$83/month** (Live Testing starter tier; ~$300/month for automated execution) | **14-day free trial** (instant cloud device access with test analytics and reporting) |
+| **[BrowserStack App Live & Automate](https://www.browserstack.com/)** | **~$4.08B Valuation** (~$230M+ ARR) | Market-leading real-device cloud with an extensive global inventory of iOS and Android hardware for live interactive and automated Appium/Espresso runs. | Starts at **$29/user/month** (App Live billed annually; App Automate from $199/parallel/month) | **Free trial**: 30 minutes of manual app testing (App Live) + 100 minutes of automated mobile testing (App Automate) |
+| **[BitBar (SmartBear)](https://www.bitbar.com/)** | **~$1.8B–$2.0B Valuation** (Parent SmartBear; ~$150M+ ARR) | Flexible real-device testing cloud natively supporting Appium, Espresso, XCUITest, and custom test runners across public and private device pools. | Starts at **$39/parallel/month** (Live Testing billed annually; Automated Testing from $177/parallel/month) | **14-day free trial** (no credit card required; access to real Android and iOS devices) |
+| **[Applause](https://www.applause.com/)** | **>$200M ARR** (~$500M+ Enterprise Value) | World-leading managed and crowdsourced testing network delivering real-world device coverage, localization, payments QA, and human feedback. | Custom enterprise engagement (pilots scoped per release cycle or testing program) | **Guided platform demo & structured pilot upon request** (no self-serve free plan; pilot programs available) |
+| **[LambdaTest / TestMu AI](https://www.lambdatest.com/)** | **~$400M Valuation** (High-growth testing cloud) | AI-infused mobile and cross-browser cloud providing real-device access, smart test execution, and comprehensive emulator/simulator support. | Starts at **$15/user/month** (Live Testing; Real Device Cloud from $25/month; App Automation from $249/parallel/month) | **Free-for-life tier**: 60 minutes/month live testing (10 mins/session, 1 parallel test); 15-day trial for enterprise features |
+| **[Sauce Labs Mobile](https://saucelabs.com/)** | **~$300M–$500M Valuation** (~$100M+ ARR) | Unified enterprise digital quality platform providing real-device cloud, error monitoring, API testing, and machine-learning test failure analysis. | Starts at **$39/month** (Live Mobile Testing; Real Device Cloud from $199/month) | **14-day free trial** (includes 100 automated and live testing minutes on the Real Device Cloud) |
+| **[HeadSpin](https://www.headspin.io/)** | **~$250M Valuation** (~$15M ARR) | Performance and UX-focused mobile testing platform monitoring real devices over global carrier networks with AI audio/video and network insights. | Starts at **~$83/month** (CloudTest Go tier for digital engineering teams) | **Free trial available upon request / sign-up** (time-limited cloud device evaluation environment) |
+| **[Testlio](https://testlio.com/)** | **~$50M–$100M Valuation** (~$20M ARR) | Managed quality engineering and crowdsourced testing platform combining expert manual testers with automation runtimes (LeoCore™). | LeoCore platform subscription fee + annual consumption testing fund | **Guided platform consultation & pilot program on request** (no self-serve free plan; case-by-case pilots) |
+| **[Kobiton](https://kobiton.com/)** | **~$54M Valuation** (~$10M–$15M ARR) | Mobile QA platform specializing in real-device management, scriptless automation, BYOD (Bring Your Own Device), and on-premises lab setups. | Starts at **$83/month** (billed annually; includes monthly device minute allotment) | **15-day free trial** (no credit card required; access to real devices and manual/automated testing) |
+| **[TestGrid](https://www.testgrid.io/)** | **~$20M–$35M Valuation** (~$5.3M ARR, Pre-Series A) | Lightweight end-to-end testing platform offering real device clouds, AI test generation (CoTester), no-code automation, and IoT/POS testing. | Starts at **$199/seat/month** (CoTester Starter Package) | **Guided POC / free trial upon demo request** (solutions-engineer guided evaluation against custom test scenarios) |
+
+---
+
+## 🛠️ Open-Source Frameworks & Device Lab Tools
+
+*Below are the most popular open-source repositories and frameworks for mobile app automation, performance profiling, and self-hosted device clouds, sorted descending by GitHub Star Count.*
+
+| Framework / Tool | Stars | Description | Supported Platforms |
+| :--- | :---: | :--- | :--- |
+| **[Appium](https://github.com/appium/appium)** | [![GitHub stars](https://img.shields.io/github/stars/appium/appium?style=social&color=white)](https://github.com/appium/appium/stargazers) | The de facto open-source standard for cross-platform mobile automation over the W3C WebDriver protocol. Supports native, hybrid, and web apps. | Android, iOS, Windows, macOS, Flutter |
+| **[MobSF (Mobile Security Framework)](https://github.com/MobSF/Mobile-Security-Framework-MobSF)** | [![GitHub stars](https://img.shields.io/github/stars/MobSF/Mobile-Security-Framework-MobSF?style=social&color=white)](https://github.com/MobSF/Mobile-Security-Framework-MobSF/stargazers) | Automated, all-in-one mobile app pen-testing, malware analysis, static (SAST) and dynamic (DAST) security assessment framework. | Android, iOS, Windows |
+| **[Maestro](https://github.com/mobile-dev-inc/maestro)** | [![GitHub stars](https://img.shields.io/github/stars/mobile-dev-inc/maestro?style=social&color=white)](https://github.com/mobile-dev-inc/maestro/stargazers) | Fast, modern, declarative E2E testing framework using concise YAML flows. Built-in tolerance for flakiness and seamless CI integration. | Android, iOS, React Native, Flutter, Web |
+| **[OpenSTF (Smartphone Test Farm)](https://github.com/openstf/stf)** | [![GitHub stars](https://img.shields.io/github/stars/openstf/stf?style=social&color=white)](https://github.com/openstf/stf/stargazers) | Pioneer self-hosted platform for controlling and debugging real Android devices remotely via browser. | Android (Self-Hosted Lab) |
+| **[Flipper](https://github.com/facebook/flipper)** | [![GitHub stars](https://img.shields.io/github/stars/facebook/flipper?style=social&color=white)](https://github.com/facebook/flipper/stargazers) | Meta's extensible mobile developer platform and desktop UI for inspecting network traffic, layout trees, databases, and logs. | Android, iOS, React Native |
+| **[Detox](https://github.com/wix/Detox)** | [![GitHub stars](https://img.shields.io/github/stars/wix/Detox?style=social&color=white)](https://github.com/wix/Detox/stargazers) | Gray-box end-to-end mobile testing library that synchronizes directly with the app runtime loop to eradicate test flakiness. | Android, iOS, React Native |
+| **[WebdriverIO](https://github.com/webdriverio/webdriverio)** | [![GitHub stars](https://img.shields.io/github/stars/webdriverio/webdriverio?style=social&color=white)](https://github.com/webdriverio/webdriverio/stargazers) | Next-generation Node.js test framework with first-class native Appium automation plugins, multi-device orchestration, and rich reporting. | Android, iOS, Mobile Web |
+| **[Airtest Project](https://github.com/AirtestProject/Airtest)** | [![GitHub stars](https://img.shields.io/github/stars/AirtestProject/Airtest?style=social&color=white)](https://github.com/AirtestProject/Airtest/stargazers) | Cross-platform UI automation framework utilizing computer vision (OpenCV) image recognition, built especially for games and complex graphic apps. | Android, iOS, Windows, Unity |
+| **[DeviceFarmer STF](https://github.com/DeviceFarmer/stf)** | [![GitHub stars](https://img.shields.io/github/stars/DeviceFarmer/stf?style=social&color=white)](https://github.com/DeviceFarmer/stf/stargazers) | Actively maintained community fork of Smartphone Test Farm (STF) supporting modern Android releases, remote access, and device clustering. | Android, iOS (Device Farm) |
+| **[Agent Device](https://github.com/callstack/agent-device)** | [![GitHub stars](https://img.shields.io/github/stars/callstack/agent-device?style=social&color=white)](https://github.com/callstack/agent-device/stargazers) | Mobile app automation and verification system built specifically for AI coding agents. Includes CLI, MCP server, and typed Node APIs. | Android, iOS, HarmonyOS, Android TV |
+| **[Sonic Cloud](https://github.com/SonicCloudOrg/sonic-server)** | [![GitHub stars](https://img.shields.io/github/stars/SonicCloudOrg/sonic-server?style=social&color=white)](https://github.com/SonicCloudOrg/sonic-server/stargazers) | Distributed, open-source mobile testing platform facilitating remote real-device clustering, automated script execution, and visual validation. | Android, iOS (Distributed Cloud) |
+| **[Appium Inspector](https://github.com/appium/appium-inspector)** | [![GitHub stars](https://img.shields.io/github/stars/appium/appium-inspector?style=social&color=white)](https://github.com/appium/appium-inspector/stargazers) | Official visual GUI tool for inspecting mobile DOM/view hierarchies, generating XPath/Accessibility ID selectors, and recording user actions. | Android, iOS, Mac, Windows |
+| **[Appium Python Client](https://github.com/appium/python-client)** | [![GitHub stars](https://img.shields.io/github/stars/appium/python-client?style=social&color=white)](https://github.com/appium/python-client/stargazers) | Official Python language client bindings for Appium, supporting PyTest, Selenium Grid, and mobile gestures. | Android, iOS |
+| **[Flashlight](https://github.com/bamlab/flashlight)** | [![GitHub stars](https://img.shields.io/github/stars/bamlab/flashlight?style=social&color=white)](https://github.com/bamlab/flashlight/stargazers) | "Lighthouse for Mobile"—automated CLI & CI mobile performance suite measuring FPS, CPU usage, RAM footprint, and battery drain. | Android, iOS (Native, RN, Flutter) |
+| **[Appium Java Client](https://github.com/appium/java-client)** | [![GitHub stars](https://img.shields.io/github/stars/appium/java-client?style=social&color=white)](https://github.com/appium/java-client/stargazers) | Official Java client library for Appium with deep support for TestNG, JUnit5, Page Object Model (POM), and mobile touch actions. | Android, iOS |
+
+### 📱 Official Native Platform SDK Frameworks
+- **[Android Espresso](https://developer.android.com/training/testing/espresso)**: Google’s official UI testing framework for Android native apps, tightly integrated with `AndroidX Test` and Android Studio for lightning-fast hermetic execution.
+- **[Apple XCUITest](https://developer.apple.com/documentation/xctest)**: Apple’s official UI and unit testing framework for iOS, iPadOS, watchOS, and tvOS native automation inside Xcode.
+
+---
+
+## 🏗️ Recommended Architecture Stacks
+
+```mermaid
+flowchart TD
+    A[Code Commit / Pull Request] --> B[CI/CD Pipeline: GitHub Actions / GitLab]
+    B --> C{Test Stage}
+    
+    C -->|Hermetic Fast Feedback| D[Local Emulators & Simulators<br/>Espresso / XCUITest / Maestro]
+    C -->|Cross-Platform E2E| E[Appium / Maestro Runner / Detox]
+    
+    E --> F[Execution Target]
+    F -->|Self-Hosted / Low Cost| G[On-Premise Device Farm<br/>DeviceFarmer STF / Sonic Cloud]
+    F -->|Massive Hardware Matrix| H[Cloud Real-Device Grid<br/>BrowserStack / LambdaTest / Sauce Labs / Perfecto]
+    
+    D --> I[Reporting & Observability]
+    G --> I
+    H --> I
+    I --> J[Allure / Flashlight / Datadog / Slack Alerts]
+```
+
+### 💡 Strategy Cheat Sheet
+- **For React Native Teams**: Use **Detox** for synchronized gray-box CI runs and **Maestro** for high-level user journey flows.
+- **For Native Android & iOS Teams**: Use **Espresso** (Android) and **XCUITest** (iOS) for rapid PR verification, paired with **Appium** or **Maestro** for full end-to-end integration flows.
+- **For Self-Hosted Private Device Farms**: Combine **DeviceFarmer STF** or **Sonic Cloud** with physical hardware racks to eliminate recurring per-minute device licensing costs.
+- **For Broad Hardware Coverage (Global Releases)**: Utilize **BrowserStack**, **Sauce Labs**, or **LambdaTest** to validate edge compatibility across global carrier networks and OEM skins (Samsung OneUI, Xiaomi MIUI, etc.).
+
+---
+
+## 🤝 How to Contribute
+1. 🍴 Fork this repository.
+2. 📝 Add or update an entry in `README.md` (keep entries objective, accurate, and properly categorized).
+3. 🔍 Ensure links, pricing tiers, and GitHub star badges follow the existing table structure.
+4. 🚀 Submit a Pull Request with a brief explanation of your additions.
+
+⭐ **Star this repository** if you find it helpful for your QA & mobile engineering workflow!
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Mobile-App-Testing-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Mobile-App-Testing-Platform&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+- This is a **community-curated** list for educational and engineering reference—not an endorsement.
+- Mobile testing often involves real hardware, firmware variants, and sensitive build artifacts. Ensure your device farms maintain strict secret hygiene and comply with platform terms of service.
+- Pricing, company valuations, and free tier quotas are subject to vendor updates. Always check official provider websites for the most current service level terms.
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for Mobile QA Engineers, Developers, and Platform Teams building world-class Android &amp; iOS apps.</b>
+</p>

@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="100%" height="260" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="accentCyanPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="phoneGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="gridGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.25" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="strongGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.4; transform: scale(1); }
+        50% { opacity: 0.85; transform: scale(1.05); }
+      }
+      @keyframes scanLine {
+        0% { transform: translateY(0px); opacity: 0; }
+        20% { opacity: 1; }
+        80% { opacity: 1; }
+        100% { transform: translateY(110px); opacity: 0; }
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-6px) rotate(1deg); }
+      }
+      @keyframes shimmerBorder {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: 600; }
+      }
+      @keyframes orbMove {
+        0%, 100% { transform: translate(0, 0); }
+        50% { transform: translate(15px, -10px); }
+      }
+      .bg-grid { stroke: url(#gridGrad); stroke-width: 1; }
+      .pulsing-orb { animation: pulseGlow 4s ease-in-out infinite alternate; }
+      .scanner-beam { animation: scanLine 2.8s ease-in-out infinite; }
+      .floating-device { animation: floatSlow 5s ease-in-out infinite; }
+      .moving-orb-1 { animation: orbMove 6s ease-in-out infinite; }
+      .shimmer-rect { stroke-dasharray: 60 140; animation: shimmerBorder 8s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="900" height="260" rx="16" fill="url(#bgGradient)" />
+
+  <!-- Animated Background Orbs -->
+  <circle class="pulsing-orb moving-orb-1" cx="160" cy="70" r="90" fill="#38bdf8" opacity="0.15" filter="url(#strongGlow)" />
+  <circle class="pulsing-orb" cx="780" cy="180" r="110" fill="#8b5cf6" opacity="0.18" filter="url(#strongGlow)" />
+  <circle class="pulsing-orb" cx="480" cy="50" r="70" fill="#ec4899" opacity="0.12" filter="url(#strongGlow)" />
+
+  <!-- Decorative Tech Grid Matrix -->
+  <g class="bg-grid" opacity="0.35">
+    <line x1="40" y1="0" x2="40" y2="260" />
+    <line x1="120" y1="0" x2="120" y2="260" />
+    <line x1="200" y1="0" x2="200" y2="260" />
+    <line x1="280" y1="0" x2="280" y2="260" />
+    <line x1="360" y1="0" x2="360" y2="260" />
+    <line x1="440" y1="0" x2="440" y2="260" />
+    <line x1="520" y1="0" x2="520" y2="260" />
+    <line x1="600" y1="0" x2="600" y2="260" />
+    <line x1="680" y1="0" x2="680" y2="260" />
+    <line x1="760" y1="0" x2="760" y2="260" />
+    <line x1="840" y1="0" x2="840" y2="260" />
+    
+    <line x1="0" y1="40" x2="900" y2="40" />
+    <line x1="0" y1="90" x2="900" y2="90" />
+    <line x1="0" y1="140" x2="900" y2="140" />
+    <line x1="0" y1="190" x2="900" y2="190" />
+    <line x1="0" y1="230" x2="900" y2="230" />
+  </g>
+
+  <!-- Card Border Glowing Frame -->
+  <rect x="2" y="2" width="896" height="256" rx="15" fill="none" stroke="url(#accentCyanPurple)" stroke-width="1.5" opacity="0.6" class="shimmer-rect" />
+
+  <!-- Left Side: Title and Value Proposition -->
+  <g transform="translate(60, 48)">
+    <!-- Badge -->
+    <g transform="translate(0, 0)">
+      <rect width="210" height="26" rx="13" fill="#1e293b" stroke="#38bdf8" stroke-width="1" opacity="0.85" />
+      <circle cx="14" cy="13" r="4" fill="#34d399" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="26" y="17" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">REAL-DEVICE &amp; AUTOMATION QA</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="58" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="30" font-weight="900" letter-spacing="-0.5">
+      Awesome <tspan fill="url(#accentCyanPurple)">Mobile App Testing</tspan>
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="86" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500">
+      Enterprise SaaS Clouds • Open-Source Frameworks • Device Farms
+    </text>
+
+    <!-- Tags Row -->
+    <g transform="translate(0, 114)">
+      <!-- Tag 1 -->
+      <g>
+        <rect width="110" height="24" rx="6" fill="#0f172a" stroke="#475569" stroke-width="1" />
+        <text x="12" y="16" fill="#38bdf8" font-family="sans-serif" font-size="11" font-weight="600">📱 Android &amp; iOS</text>
+      </g>
+      <!-- Tag 2 -->
+      <g transform="translate(120, 0)">
+        <rect width="105" height="24" rx="6" fill="#0f172a" stroke="#475569" stroke-width="1" />
+        <text x="10" y="16" fill="#a855f7" font-family="sans-serif" font-size="11" font-weight="600">⚡ Appium &amp; E2E</text>
+      </g>
+      <!-- Tag 3 -->
+      <g transform="translate(235, 0)">
+        <rect width="125" height="24" rx="6" fill="#0f172a" stroke="#475569" stroke-width="1" />
+        <text x="10" y="16" fill="#f43f5e" font-family="sans-serif" font-size="11" font-weight="600">☁️ Real Device Lab</text>
+      </g>
+      <!-- Tag 4 -->
+      <g transform="translate(370, 0)">
+        <rect width="110" height="24" rx="6" fill="#0f172a" stroke="#475569" stroke-width="1" />
+        <text x="10" y="16" fill="#34d399" font-family="sans-serif" font-size="11" font-weight="600">🤖 AI Test Agents</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Side: Animated Mobile Device Mockup Graphic -->
+  <g class="floating-device" transform="translate(710, 40)">
+    <!-- Device Shadow -->
+    <rect x="6" y="6" width="100" height="175" rx="20" fill="#000000" opacity="0.4" />
+    
+    <!-- Phone Body -->
+    <rect x="0" y="0" width="100" height="175" rx="20" fill="#1e293b" stroke="url(#phoneGlow)" stroke-width="2" />
+    
+    <!-- Phone Screen Inner -->
+    <rect x="6" y="8" width="88" height="159" rx="14" fill="#0b0f19" />
+    
+    <!-- Phone Notch -->
+    <rect x="36" y="12" width="28" height="5" rx="2.5" fill="#334155" />
+    
+    <!-- App UI Mock Elements inside Screen -->
+    <rect x="14" y="26" width="45" height="7" rx="3.5" fill="#38bdf8" opacity="0.9" />
+    <rect x="14" y="38" width="72" height="4" rx="2" fill="#475569" opacity="0.7" />
+    
+    <!-- UI Cards -->
+    <rect x="14" y="50" width="72" height="28" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <circle cx="25" cy="64" r="6" fill="#34d399" opacity="0.8" />
+    <rect x="37" y="58" width="38" height="4" rx="2" fill="#94a3b8" />
+    <rect x="37" y="66" width="24" height="3" rx="1.5" fill="#64748b" />
+
+    <rect x="14" y="84" width="72" height="28" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <circle cx="25" cy="98" r="6" fill="#8b5cf6" opacity="0.8" />
+    <rect x="37" y="92" width="42" height="4" rx="2" fill="#94a3b8" />
+    <rect x="37" y="100" width="28" height="3" rx="1.5" fill="#64748b" />
+
+    <!-- Test Passed Indicator -->
+    <g transform="translate(14, 120)">
+      <rect width="72" height="20" rx="5" fill="#064e3b" stroke="#10b981" stroke-width="1" opacity="0.8" />
+      <text x="14" y="14" fill="#6ee7b7" font-family="sans-serif" font-size="9" font-weight="700">✓ ALL TESTS PASS</text>
+    </g>
+
+    <!-- Animated Scanning Laser Beam -->
+    <g class="scanner-beam">
+      <line x1="6" y1="30" x2="94" y2="30" stroke="#00f0ff" stroke-width="2" filter="url(#glow)" />
+      <rect x="6" y="24" width="88" height="12" fill="url(#phoneGlow)" opacity="0.25" />
+    </g>
+
+    <!-- Signal Waves / Pulse Rings -->
+    <circle cx="50" cy="190" r="18" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.6">
+      <animate attributeName="r" values="12;28" dur="2.4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>
