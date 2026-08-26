@@ -1,6 +1,6 @@
 # Awesome-Mobile-App-Testing-Platform
 
-# Top Mobile App Testing Platforms Ecosystem
+## Top Mobile App Testing Platforms Ecosystem
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 *Focused on Real-Device Clouds, Manual & Automated Testing, Performance Monitoring & Cross-Platform Mobile QA*
 **Last updated: August 2026**
