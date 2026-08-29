@@ -30,6 +30,7 @@ Whether you are scaling **automated End-to-End (E2E) testing**, setting up a **s
 - [☁️ SaaS / Hosted Real-Device Platforms](#️-saas--hosted-real-device-platforms)
   - [📊 Market Overview & Industry Dynamics](#-market-overview--industry-dynamics)
   - [🏢 Enterprise & Commercial Testing Clouds](#-enterprise--commercial-testing-clouds)
+- [🤖 AI-Assisted Testing Agents](#-ai-assisted-testing-agents)
 - [🛠️ Open-Source Frameworks & Device Lab Tools](#️-open-source-frameworks--device-lab-tools)
 - [🏗️ Recommended Architecture Stacks](#️-recommended-architecture-stacks)
 - [🤝 How to Contribute](#-how-to-contribute)
@@ -58,6 +59,14 @@ Whether you are scaling **automated End-to-End (E2E) testing**, setting up a **s
 | **[Testlio](https://testlio.com/)** | **~$50M–$100M Valuation** (~$20M ARR) | Managed quality engineering and crowdsourced testing platform combining expert manual testers with automation runtimes (LeoCore™). | LeoCore platform subscription fee + annual consumption testing fund | **Guided platform consultation & pilot program on request** (no self-serve free plan; case-by-case pilots) |
 | **[Kobiton](https://kobiton.com/)** | **~$54M Valuation** (~$10M–$15M ARR) | Mobile QA platform specializing in real-device management, scriptless automation, BYOD (Bring Your Own Device), and on-premises lab setups. | Starts at **$83/month** (billed annually; includes monthly device minute allotment) | **15-day free trial** (no credit card required; access to real devices and manual/automated testing) |
 | **[TestGrid](https://www.testgrid.io/)** | **~$20M–$35M Valuation** (~$5.3M ARR, Pre-Series A) | Lightweight end-to-end testing platform offering real device clouds, AI test generation (CoTester), no-code automation, and IoT/POS testing. | Starts at **$199/seat/month** (CoTester Starter Package) | **Guided POC / free trial upon demo request** (solutions-engineer guided evaluation against custom test scenarios) |
+
+---
+
+## 🤖 AI-Assisted Testing Agents
+
+| Tool | License | Description | Supported Platforms |
+| :--- | :--- | :--- | :--- |
+| **[Agent QA](https://github.com/vostride/agent-qa)** | FSL-1.1-ALv2 source-available; converts to Apache-2.0 after two years | Self-improving QA agent that authors and runs natural-language regression tests through a CLI and MCP server, retaining test memory and reviewable run evidence. The package itself has no software fee; configured model, browser, or device providers may charge separately. | Web, Android, iOS (through configured browser/device providers) |
 
 ---
 
