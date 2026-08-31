@@ -30,7 +30,6 @@ Whether you are scaling **automated End-to-End (E2E) testing**, setting up a **s
 - [☁️ SaaS / Hosted Real-Device Platforms](#️-saas--hosted-real-device-platforms)
   - [📊 Market Overview & Industry Dynamics](#-market-overview--industry-dynamics)
   - [🏢 Enterprise & Commercial Testing Clouds](#-enterprise--commercial-testing-clouds)
-- [🤖 AI-Assisted Testing Agents](#-ai-assisted-testing-agents)
 - [🛠️ Open-Source Frameworks & Device Lab Tools](#️-open-source-frameworks--device-lab-tools)
 - [🏗️ Recommended Architecture Stacks](#️-recommended-architecture-stacks)
 - [🤝 How to Contribute](#-how-to-contribute)
@@ -62,14 +61,6 @@ Whether you are scaling **automated End-to-End (E2E) testing**, setting up a **s
 
 ---
 
-## 🤖 AI-Assisted Testing Agents
-
-| Tool | License | Description | Supported Platforms |
-| :--- | :--- | :--- | :--- |
-| **[Agent QA](https://github.com/vostride/agent-qa)** | FSL-1.1-ALv2 source-available; converts to Apache-2.0 after two years | Self-improving QA agent that authors and runs natural-language regression tests through a CLI and MCP server, retaining test memory and reviewable run evidence. The package itself has no software fee; configured model, browser, or device providers may charge separately. | Web, Android, iOS (through configured browser/device providers) |
-
----
-
 ## 🛠️ Open-Source Frameworks & Device Lab Tools
 
 *Below are the most popular open-source repositories and frameworks for mobile app automation, performance profiling, and self-hosted device clouds, sorted descending by GitHub Star Count.*
@@ -86,6 +77,7 @@ Whether you are scaling **automated End-to-End (E2E) testing**, setting up a **s
 | **[Airtest Project](https://github.com/AirtestProject/Airtest)** | [![GitHub stars](https://img.shields.io/github/stars/AirtestProject/Airtest?style=social&color=white)](https://github.com/AirtestProject/Airtest/stargazers) | Cross-platform UI automation framework utilizing computer vision (OpenCV) image recognition, built especially for games and complex graphic apps. | Android, iOS, Windows, Unity |
 | **[DeviceFarmer STF](https://github.com/DeviceFarmer/stf)** | [![GitHub stars](https://img.shields.io/github/stars/DeviceFarmer/stf?style=social&color=white)](https://github.com/DeviceFarmer/stf/stargazers) | Actively maintained community fork of Smartphone Test Farm (STF) supporting modern Android releases, remote access, and device clustering. | Android, iOS (Device Farm) |
 | **[Agent Device](https://github.com/callstack/agent-device)** | [![GitHub stars](https://img.shields.io/github/stars/callstack/agent-device?style=social&color=white)](https://github.com/callstack/agent-device/stargazers) | Mobile app automation and verification system built specifically for AI coding agents. Includes CLI, MCP server, and typed Node APIs. | Android, iOS, HarmonyOS, Android TV |
+| **[Agent QA](https://github.com/vostride/agent-qa)** | [![GitHub stars](https://img.shields.io/github/stars/vostride/agent-qa?style=social&color=white)](https://github.com/vostride/agent-qa/stargazers) | Self-improving QA agent for authoring and running natural-language regression tests through a CLI and MCP server, with retained test memory and reviewable run evidence. Source-available under FSL-1.1-ALv2 and converts to Apache-2.0 after two years. | Web, Android, iOS (through configured browser/device providers) |
 | **[Sonic Cloud](https://github.com/SonicCloudOrg/sonic-server)** | [![GitHub stars](https://img.shields.io/github/stars/SonicCloudOrg/sonic-server?style=social&color=white)](https://github.com/SonicCloudOrg/sonic-server/stargazers) | Distributed, open-source mobile testing platform facilitating remote real-device clustering, automated script execution, and visual validation. | Android, iOS (Distributed Cloud) |
 | **[Appium Inspector](https://github.com/appium/appium-inspector)** | [![GitHub stars](https://img.shields.io/github/stars/appium/appium-inspector?style=social&color=white)](https://github.com/appium/appium-inspector/stargazers) | Official visual GUI tool for inspecting mobile DOM/view hierarchies, generating XPath/Accessibility ID selectors, and recording user actions. | Android, iOS, Mac, Windows |
 | **[Appium Python Client](https://github.com/appium/python-client)** | [![GitHub stars](https://img.shields.io/github/stars/appium/python-client?style=social&color=white)](https://github.com/appium/python-client/stargazers) | Official Python language client bindings for Appium, supporting PyTest, Selenium Grid, and mobile gestures. | Android, iOS |
