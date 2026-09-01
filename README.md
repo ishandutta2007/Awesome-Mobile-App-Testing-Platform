@@ -65,7 +65,7 @@ Whether you are scaling **automated End-to-End (E2E) testing**, setting up a **s
 
 *Below are the most popular open-source repositories and frameworks for mobile app automation, performance profiling, and self-hosted device clouds, sorted descending by GitHub Star Count.*
 
-| Framework / Tool | Stars | Description | Supported Platforms |
+| Framework / Tool | Github_Stars | Description | Supported Platforms |
 | :--- | :---: | :--- | :--- |
 | **[Appium](https://github.com/appium/appium)** | [![GitHub stars](https://img.shields.io/github/stars/appium/appium?style=social&color=white)](https://github.com/appium/appium/stargazers) | The de facto open-source standard for cross-platform mobile automation over the W3C WebDriver protocol. Supports native, hybrid, and web apps. | Android, iOS, Windows, macOS, Flutter |
 | **[MobSF (Mobile Security Framework)](https://github.com/MobSF/Mobile-Security-Framework-MobSF)** | [![GitHub stars](https://img.shields.io/github/stars/MobSF/Mobile-Security-Framework-MobSF?style=social&color=white)](https://github.com/MobSF/Mobile-Security-Framework-MobSF/stargazers) | Automated, all-in-one mobile app pen-testing, malware analysis, static (SAST) and dynamic (DAST) security assessment framework. | Android, iOS, Windows |
